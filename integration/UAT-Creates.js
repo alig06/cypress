@@ -4,7 +4,7 @@
 
 describe('Login',()=>{
 
-	it('Create and Login',()=>{
+	it.skip('Create and Login',()=>{
 		//Create new account
 		cy.visit("www.prisync.com",{timeout:15000})
 		cy.get('[id="registerButton"]',{timeout:15000}).click()
