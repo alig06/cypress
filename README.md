@@ -27,8 +27,20 @@ UI test trainings with Cypress
 >>**8.**
 > Run this code **`./node_modules/.bin/cypress open`** and open cypress with directories.
 
+***
+>>> If website is a responsive,It may be necessary to change the window size.
+>> **`cd qa-tests`** and
+**`nano cypress.json`**
+>> AND paste this code into the **cypress.json** 
+
+**`{
+"viewportWidth":1400,
+"viewportHeight":860
+}`**
+
 >> _**Select your test and RUN !**_
 ***
+
 
 
 >>> **If you want to detailed explanation visit a url [Cypress.io](https://docs.cypress.io/guides/getting-started/installing-cypress.html)**
