@@ -19,7 +19,7 @@ UI test trainings with Cypress
 ***
 >> **6.**
 > In this step, the repository is cloned.
-> **`git clone git@github.com:alig06/CypressTraining`** and wait for clone repo.
+> **`git clone git@github.com:alig06/cypress.git`** and wait for clone repo.
 ***
 >>**7.**
 > **`cd qa-tests`**
