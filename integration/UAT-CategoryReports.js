@@ -31,10 +31,16 @@ describe('Category Reports',()=>{
 			cy.get('a',{timeout:15000}).contains('Category Reports').click()
 			cy.url().should('contain','/panel/report/type/category')
 			cy.get('[id="button_filter"]',{timeout:15000}).click()
-			cy.get('[id="s2id_form_filter_category"]',{timeout:15000}).find('.select2-choices').find('input').type(category).type('{enter}').attr('force','True')
+			cy.get('[id="s2id_form_filter_category"]',{timeout:15000}).find('.select2-choices').find('input').type(category).type('{enter}',{force:true})
 			cy.get('input[name="index_min"]',{timeout:15000}).type('0')
 			cy.get('input[name="index_max"]',{timeout:15000}).type('10')
 
+			//number of products
+			cy.get('.product_count').should('have.text','6 Categories Found.')
+
+			cy.wait(2000)
+			//Reset
+			cy.get('a.btn').contains('Reset').click()
 
 
 		})
