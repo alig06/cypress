@@ -1,4 +1,4 @@
-describe('Category Reports',()=>{
+describe('Brand Reports',()=>{
 	before('LOGİN',()=>{
 		//LOGİN
 		cy.visit('www.prisync.com/login')
