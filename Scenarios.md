@@ -5,13 +5,15 @@
 >> **2a-)** My price should be (integer)-(TRY / %)-(higher / lower)
      than(cheapest / average / highest) of (some sites) but it should not be lower than (my cost +  
 (integer)-(TRY / %)
+
 >> **2b-)** My price should be equal to (cheapest / average / highest)
 
 > **3.** When change price state (cheapest / average / highest) , smart price should be changed.
 
 > **4.** The number of products in the SmartPrice must be equal to the total number of products in the page.
->>**4a.** And total number of products should be equal title.
+>>**4a-)** And total number of products should be equal title.
 
+***
 
 # Category Reports
 > **1.** Is the "Price Position" visible ?
@@ -26,6 +28,7 @@
 
 > **4.** Number of categories should be equal "6".
 
+***
 
 # Brand Reports
 > **1.** Is the "Price Position" visible ?
@@ -40,7 +43,7 @@
 
 > **4.** Number of brand should be equal "6".
 
-
+***
 
 # Excel Reports
 > **1.** When you click 'export' on product, a new notification comes to Excel reports.
