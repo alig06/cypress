@@ -58,7 +58,7 @@ describe('Dashboard',()=>{
 				cy.get('h2',{timeout:15000}).contains('Position').parent().should('be.visible')
 				
 				//If this field's text equal to 0 , Passed .
-				cy.get('[id="cheapest"]',{timeout:15000}).should('have.text','0')
+				cy.get('[id="cheapest"]',{timeout:15000}).should('have.text','1')
 				cy.get('[id="cheaper"]',{timeout:15000}).should('have.text','0')
 				cy.get('[id="average"]',{timeout:15000}).should('have.text','0')
 				cy.get('[id="higher"]',{timeout:15000}).should('have.text','0')
